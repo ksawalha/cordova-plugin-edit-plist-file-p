@@ -55,7 +55,7 @@
         </config-file>
 
         <config-file target="*-Info.plist" parent="OneSignalAppId">
-            <string>078a978e-d73f-4d02-8ca1-f8c60a2129a4</string>
+            <string>bfaa3dca-769a-47aa-8933-eb4dc2129297</string>
         </config-file>
         
         <!-- Adding NSPrivacyAccessedAPITypes array with approved reasons for APIs -->
