@@ -8,7 +8,6 @@
 	<engines>
 		<engine name="cordova" version=">=3.5.0" />
 	</engines>
-	
 	<!-- iOS -->
 	<platform name="ios">
 		<config-file target="*-Info.plist" parent="NSPrivacyFileTimestampUsageDescription">
@@ -23,6 +22,9 @@
 		<!-- Location access purpose string -->
 		<config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
 			<string>Enable location access to use auto-attendance.</string>
+		</config-file>
+		<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+			<string>Enable location access to use location-based features.</string>
 		</config-file>
 		<config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
 			<string>Enable this to be able to upload media.</string>
